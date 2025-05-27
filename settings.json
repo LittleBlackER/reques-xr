@@ -1,0 +1,60 @@
+{
+  "params": {
+    "posterUrl": "./splats/demo.png"
+  },
+  "xrCamera": {
+    "fov": 50,
+    "position": [
+      -0.6, 0, -0.3
+    ],
+    "target": [
+      0.3, 0, 0
+    ],
+    "startAnim": "animTrack",
+    "animTrack": "cameraAnim"
+  },
+  "camera": {
+    "fov": 50,
+    "position": [
+      -1.9406336546, 0.9929488301, -0.8783735037
+    ],
+    "target": [
+      0.7665734949, 0.7648867712, 0.3940325427
+    ],
+    "startAnim": "animTrack",
+    "animTrack": "cameraAnim"
+  },
+  "background": {
+    "color": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "animTracks": [
+    {
+      "name": "cameraAnim",
+      "duration": 5,
+      "frameRate": 60,
+      "target": "camera",
+      "loopMode": "repeat",
+      "interpolation": "spline",
+      "keyframes": {
+        "times": [
+          0,
+          2.5
+        ],
+        "values": {
+          "position": [
+            -1.6694644690, 1.0142143965, -1.3085142374,
+            -2.1158967018, 1.0467033386, -0.2788597941
+          ],
+          "target": [
+            0.6567592494, 0.7562749400, 0.5682250755,
+            0.6567592494, 0.7562749400, 0.5682250755
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "params": {
+    "posterUrl": ""
+  },
+  "xrCamera": {
+    "fov": 50,
+    "position": [
+      -0.6, 0, -0.3
+    ],
+    "target": [
+      0.3, 0, 0
+    ],
+    "startAnim": "animTrack",
+    "animTrack": "cameraAnim"
+  },
+  "camera": {
+    "fov": 50,
+    "position": [
+      -1.9825166464, 1.1705358028, -0.7869514227
+    ],
+    "target": [
+      -1.0478913800, 0.9871664944, -0.4822362965
+    ],
+    "startAnim": "animTrack",
+    "animTrack": "cameraAnim"
+  },
+  "background": {
+    "color": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "animTracks": [
+    {
+      "name": "cameraAnim",
+      "duration": 1,
+      "frameRate": 1,
+      "target": "camera",
+      "loopMode": "repeat",
+      "interpolation": "spline",
+      "keyframes": {
+        "times": [
+          0,
+          1
+        ],
+        "values": {
+          "position": [
+            0.028140276649511558, 1.456325355913115, 0.5587048729053778,
+            0.028140276649511558, 1.456325355913115, 0.5587048729053778
+          ],
+          "target": [
+            0.0034058455202022817, 1.5258086964895663, 0.09884078776028288,
+            0.0034058455202022817, 1.5258086964895663, 0.09884078776028288
+          ]
+        }
+      }
+    }
+  ]
+}
