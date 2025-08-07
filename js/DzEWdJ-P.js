@@ -2034,7 +2034,7 @@ struct SplatCorner {
 // clipMaring is the minimum alpha value for the fragment to be included
 void clipCorner(inout SplatCorner corner, float alpha, float clipMarginal) {
     float clip = min(1.0, sqrt(log(alpha / clipMarginal) / 4.0));
-    // clip *=0.7;
+    clip *=0.7;
     corner.offset *= clip;
     corner.uv *= clip;
 }
