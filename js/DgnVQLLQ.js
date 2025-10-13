@@ -1,1 +1,0 @@
-import{r as o}from"./CCNg_wXw.js";import{r as i}from"./H-cN399H.js";var t,a;function m(){if(a)return t;a=1,t=r;var e=o();i()(r,e);function r(s){if(!(this instanceof r))return new r(s);e.call(this,s)}return r.prototype._transform=function(s,u,n){n(null,s)},t}export{m as r};

@@ -1,1 +1,0 @@
-import{E as n}from"./ClVnoY18.js";import{g as i}from"./DaTJh3Re.js";const g=(o,e)=>i(e).reduce((r,t)=>{if(typeof r!="object")throw new n(`Index '${t}' in '${e}' not found in '${JSON.stringify(o)}'`);return Array.isArray(r)?r[parseInt(t)]:r[t]},o);export{g};

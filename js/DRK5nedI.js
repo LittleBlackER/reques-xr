@@ -1,1 +1,0 @@
-import"./DqSBQOHB.js";const s=new RegExp("^(?:25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]\\d|\\d)(?:\\.(?:25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]\\d|\\d)){3}$"),i=d=>s.test(d)||d.startsWith("[")&&d.endsWith("]");export{i};
