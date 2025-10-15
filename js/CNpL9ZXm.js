@@ -3160,7 +3160,7 @@ void main(void) {
     }
 
     // evaluate alpha
-    mediump float alpha = fastExp(-A * 4.0) * gaussianColor.a;
+    highp float alpha = fastExp(-A * 4.0) * gaussianColor.a;
     // TODO uShapeN alpha
     // float dx = abs(gaussianCUV.x) / gaussianSize.x;
     // float dy = abs(gaussianCUV.y) / gaussianSize.y;
