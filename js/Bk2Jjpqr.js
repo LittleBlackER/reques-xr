@@ -3160,12 +3160,12 @@ void main(void) {
     }
 
     // evaluate alpha
-    mediump float alpha = fastExp(-A * 4.0) * gaussianColor.a;
+    // mediump float alpha = fastExp(-A * 4.0) * gaussianColor.a;
     // TODO uShapeN alpha
     // float dx = abs(gaussianCUV.x) / gaussianSize.x;
     // float dy = abs(gaussianCUV.y) / gaussianSize.y;
     // float B = max(dx, dy);                  // 距离度量：矩形边界
-    // mediump float alpha = exp(-pow(B, 2.0) * 4.0) * gaussianColor.a;
+    mediump float alpha = exp(-pow(A, 2.0) * 4.0) * gaussianColor.a;
 
     bool openRingMode = ringSize > 0.0 && mode == 1; // && uControlMode == 1; 
     if (openRingMode && saveMarginal >= 0.05) {
