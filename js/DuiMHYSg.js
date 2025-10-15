@@ -3168,13 +3168,15 @@ void main(void) {
     // mediump float alpha = exp(-pow(B, 2.0) * 4.0) * gaussianColor.a;
 
     bool openRingMode = ringSize > 0.0 && mode == 1; // && uControlMode == 1; 
-    if (openRingMode && saveMarginal >= 0.05) {
-        if (A < 1.0 - ringSize) {
-            alpha = max(0.05, alpha);
-        } else {
-            alpha = 0.6;
-        }
-    }
+    alpha = max(0.05, alpha);
+    
+    // if (openRingMode && saveMarginal >= 0.05) {
+    //     if (A < 1.0 - ringSize) {
+    //         alpha = max(0.05, alpha);
+    //     } else {
+    //         alpha = 0.6;
+    //     }
+    // }
     
     bool openShapeMode = uShapeN > 2; // && uControlMode == 1;
     if (openShapeMode) {
