@@ -3163,7 +3163,7 @@ void main(void) {
     // mediump float alpha = fastExp(-A * 4.0) * gaussianColor.a;
     highp float alpha = fastExp(-A * 4.0) * gaussianColor.a;
     alpha = clamp(alpha, 0.0, 1.0);
-    alpha = pow(alpha, 1.0/2.2); // gamma 校正
+    // alpha = pow(alpha, 1.0/2.2); // gamma 校正
 
     bool openRingMode = ringSize > 0.0 && mode == 1; // && uControlMode == 1; 
     if (openRingMode && saveMarginal >= 0.05) {
