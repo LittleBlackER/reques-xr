@@ -2544,7 +2544,7 @@ void main(void) {
     }
 
     // evaluate alpha
-    mediump float alpha = exp(-A * 4.0) * gaussianColor.a;
+    float alpha = exp(-0.5 * A) * gaussianColor.a;
 
     #ifdef PICK_PASS
         if (alpha < 0.3) {
