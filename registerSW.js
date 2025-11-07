@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://frontend.4dv-intelligence.com/viewer/test/20251107/150312/sw.js', { scope: 'https://frontend.4dv-intelligence.com/viewer/test/20251107/150312/' })})}
