@@ -52,13 +52,9 @@
     // const splatURL = '/examples/assets/models/corgi_3dgs.ply';
     const background = new SplatMesh({ url: splatURL });
     background.quaternion.set(1, 0, 0, 0);
-    background.scale.setScalar(0.1);
+    // background.scale.setScalar(0.1);
 
-    background.position.set(-0.05,-0.16,-0.2);
-    // debugger;
-    // background.rotateY(0.2);
-    // background.rotateX(Math.PI);
-    // background.rotation.x = -Math.PI / 2;
+    // background.position.set(-0.05,-0.16,-0.2);
     scene.add(background);
 
     const vrButton = VRButton.createButton(renderer, {
