@@ -18355,7 +18355,7 @@ function Me(s) {
 }
 async function te(s) {
   if (x !== void 0) return x;
-  typeof s < "u" && (Object.getPrototypeOf(s) === Object.prototype ? { module_or_path: s } = s : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof s > "u" && (s = new URL("/assets/ply_parser_wasm_bg-BGufjciQ.wasm", import.meta.url));
+  typeof s < "u" && (Object.getPrototypeOf(s) === Object.prototype ? { module_or_path: s } = s : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof s > "u" && (s = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251126/154531/assets/ply_parser_wasm_bg-BGufjciQ.wasm", import.meta.url));
   const e = pe();
   (typeof s == "string" || typeof Request == "function" && s instanceof Request || typeof URL == "function" && s instanceof URL) && (s = fetch(s));
   const { instance: t, module: r } = await Ae(await s, e);
