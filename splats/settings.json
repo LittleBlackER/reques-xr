@@ -4,23 +4,15 @@
   },
   "xrCamera": {
     "fov": 50,
-    "position": [
-      1, 0, 2
-    ],
-    "target": [
-      0.3, 0, 0.6
-    ],
+    "position": [1, 0, 2],
+    "target": [0.3, 0, 0.6],
     "startAnim": "animTrack",
     "animTrack": "cameraAnim"
   },
   "camera": {
     "fov": 50,
-    "position": [
-      1,1,2
-    ],
-    "target": [
-      0,0.3,0
-    ],
+    "position": [1, 1, 2],
+    "target": [0, 1, 0],
     "startAnim": "animTrack",
     "animTrack": "cameraAnim"
   },
@@ -50,8 +42,8 @@
             1,1,2
           ],
           "target": [
-            0,0.3,0,
-            0,0.3,0
+            0,1,0,
+            0,1,0
           ]
         }
       }
