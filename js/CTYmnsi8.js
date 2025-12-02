@@ -18363,7 +18363,7 @@ function Se(r) {
 }
 async function Z(r) {
   if (x !== void 0) return x;
-  typeof r < "u" && (Object.getPrototypeOf(r) === Object.prototype ? { module_or_path: r } = r : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof r > "u" && (r = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251202/171554/assets/ply_parser_wasm_bg-BGufjciQ.wasm", import.meta.url));
+  typeof r < "u" && (Object.getPrototypeOf(r) === Object.prototype ? { module_or_path: r } = r : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof r > "u" && (r = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251202/174811/assets/ply_parser_wasm_bg-BGufjciQ.wasm", import.meta.url));
   const e = he();
   (typeof r == "string" || typeof Request == "function" && r instanceof Request || typeof URL == "function" && r instanceof URL) && (r = fetch(r));
   const { instance: t, module: s } = await ze(await r, e);
