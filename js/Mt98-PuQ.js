@@ -510,7 +510,7 @@ function k(e, t) {
 }
 async function T(e) {
   if (i !== void 0) return i;
-  typeof e < "u" && (Object.getPrototypeOf(e) === Object.prototype ? { module_or_path: e } = e : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof e > "u" && (e = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251223/115806/assets/build_temporal_tree_bg-6ztBurlQ.wasm", import.meta.url));
+  typeof e < "u" && (Object.getPrototypeOf(e) === Object.prototype ? { module_or_path: e } = e : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof e > "u" && (e = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251223/140754/assets/build_temporal_tree_bg-6ztBurlQ.wasm", import.meta.url));
   const t = I();
   (typeof e == "string" || typeof Request == "function" && e instanceof Request || typeof URL == "function" && e instanceof URL) && (e = fetch(e));
   const { instance: n, module: r } = await v(await e, t);
@@ -963,7 +963,7 @@ function Le(t, e) {
 }
 async function Te(t) {
   if (c !== void 0) return c;
-  typeof t < "u" && (Object.getPrototypeOf(t) === Object.prototype ? { module_or_path: t } = t : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof t > "u" && (t = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251223/115806/assets/gsplat_sorter_bg-BuIY4ez1.wasm", import.meta.url));
+  typeof t < "u" && (Object.getPrototypeOf(t) === Object.prototype ? { module_or_path: t } = t : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof t > "u" && (t = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251223/140754/assets/gsplat_sorter_bg-BuIY4ez1.wasm", import.meta.url));
   const e = $e();
   (typeof t == "string" || typeof Request == "function" && t instanceof Request || typeof URL == "function" && t instanceof URL) && (t = fetch(t));
   const { instance: r, module: n } = await Re(await t, e);
@@ -1602,7 +1602,7 @@ function nt(t, e) {
 }
 async function Me(t) {
   if (a !== void 0) return a;
-  typeof t < "u" && (Object.getPrototypeOf(t) === Object.prototype ? { module_or_path: t } = t : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof t > "u" && (t = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251223/115806/assets/gsplat_sorter_gpu_bg-vo3lE8zf.wasm", import.meta.url));
+  typeof t < "u" && (Object.getPrototypeOf(t) === Object.prototype ? { module_or_path: t } = t : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof t > "u" && (t = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251223/140754/assets/gsplat_sorter_gpu_bg-vo3lE8zf.wasm", import.meta.url));
   const e = rt();
   (typeof t == "string" || typeof Request == "function" && t instanceof Request || typeof URL == "function" && t instanceof URL) && (t = fetch(t));
   const { instance: r, module: n } = await tt(await t, e);
@@ -19442,7 +19442,7 @@ function Se(s) {
 }
 async function Z(s) {
   if (x !== void 0) return x;
-  typeof s < "u" && (Object.getPrototypeOf(s) === Object.prototype ? { module_or_path: s } = s : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof s > "u" && (s = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251223/115806/assets/ply_parser_wasm_bg-BGufjciQ.wasm", import.meta.url));
+  typeof s < "u" && (Object.getPrototypeOf(s) === Object.prototype ? { module_or_path: s } = s : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof s > "u" && (s = new URL("https://frontend.4dv-intelligence.com/viewer/test/20251223/140754/assets/ply_parser_wasm_bg-BGufjciQ.wasm", import.meta.url));
   const e = he();
   (typeof s == "string" || typeof Request == "function" && s instanceof Request || typeof URL == "function" && s instanceof URL) && (s = fetch(s));
   const { instance: t, module: r } = await ze(await s, e);
