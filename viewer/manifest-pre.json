@@ -1,6 +1,6 @@
 {
-  "name": "Test-4DV.ai",
-  "short_name": "Test-4DV.ai",
+  "name": "Pre-4DV.ai",
+  "short_name": "Pre-4DV.ai",
   "description": "At 4DV.ai, we are working on 4D video creation, playing and editing tools based on Gaussian Splatting. We envision 4D video to be the future of visual media and ultimate medium for immersive storytelling.",
   "display": "standalone",
   "start_url": "/",

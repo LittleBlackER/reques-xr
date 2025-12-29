@@ -1,14 +1,11 @@
 {
-  "params": {
-    "posterUrl": ""
-  },
   "xrCamera": {
     "fov": 50,
     "position": [
-      1, 0, 2
+      0,0,2
     ],
     "target": [
-      0.3, 0, 0.6
+      0,0,0
     ],
     "startAnim": "animTrack",
     "animTrack": "cameraAnim"
@@ -16,10 +13,10 @@
   "camera": {
     "fov": 50,
     "position": [
-      1,1,2
+      0,0.5,2
     ],
     "target": [
-      0,0.3,0
+      0,0.5,0
     ],
     "startAnim": "animTrack",
     "animTrack": "cameraAnim"
@@ -42,16 +39,16 @@
       "keyframes": {
         "times": [
           0,
-          10
+          2.5
         ],
         "values": {
           "position": [
-            1,1,2,
-            1,1,2
+            0,0.5,2,
+            0,0.5,2
           ],
           "target": [
-            0,0.3,0,
-            0,0.3,0
+            0,0.5,0,
+            0,0.5,0
           ]
         }
       }
